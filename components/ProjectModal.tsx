@@ -93,20 +93,35 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
               {project.title}
             </motion.h2>
 
-            {/* External Link Button */}
-            {project.externalLink && (
-              <a 
-                href={project.externalLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mb-6 inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-bold text-black transition-colors hover:bg-gray-200"
-              >
-                <span>VISIT LIVE SITE</span>
-                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 11L11 1M11 1H3M11 1V9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </a>
-            )}
+            {/* External Link Buttons */}
+            <div className="flex flex-wrap gap-3 mb-6">
+              {project.externalLink && (
+                <a 
+                  href={project.externalLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-bold text-black transition-colors hover:bg-gray-200"
+                >
+                  <span>VISIT LIVE SITE</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 11L11 1M11 1H3M11 1V9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </a>
+              )}
+              {project.id === 'p1' && (
+                <a 
+                  href="https://www.youtube.com/watch?v=YrP0aW7jse4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2 text-sm font-bold text-black transition-colors hover:bg-gray-200"
+                >
+                  <span>WATCH ON YOUTUBE</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 11L11 1M11 1H3M11 1V9" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </a>
+              )}
+            </div>
 
             {/* Expanded Tools List */}
             <div className="mb-8 flex flex-wrap gap-2">
