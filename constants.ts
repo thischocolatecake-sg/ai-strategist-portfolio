@@ -41,7 +41,7 @@ export const PROJECTS: Project[] = [
     client: 'Ser En',
     thumbnailImg: '/images/djset-thumbnail.jpg',
     heroImg: '/images/djset-thumbnail.jpg',
-    aspectRatio: 'square',
+    aspectRatio: 'landscape',
     tools: ['Midjourney', 'Blender', 'CapCut'],
     promptHook: "Blender 3D Overlay + Midjourney Keyframes + Seamless Loop Assembly",
     strategyDesc: "Develop on-brand visual content for live DJ set with custom looping animation that sustains visual interest throughout extended performance without jarring cuts or transitions.",
