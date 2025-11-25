@@ -39,13 +39,13 @@ export const PROJECTS: Project[] = [
     id: 'p3',
     title: 'DJ Set Loops',
     client: 'Ser En',
-    thumbnailImg: '/images/djset-thumbnail.jpg',
-    heroImg: '/images/djset-thumbnail.jpg',
+    thumbnailImg: 'https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&q=80&w=800',
+    heroImg: 'https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&q=80&w=1600',
     aspectRatio: 'landscape',
     tools: ['Midjourney', 'Blender', 'CapCut'],
     promptHook: "Blender 3D Overlay + Midjourney Keyframes + Seamless Loop Assembly",
     strategyDesc: "Develop on-brand visual content for live DJ set with custom looping animation that sustains visual interest throughout extended performance without jarring cuts or transitions.",
-    videoUrl: "https://player.vimeo.com/video/1140228553?autoplay=1&muted=1&loop=1&background=1", // New Vimeo Loop
+    videoUrl: "https://player.vimeo.com/video/1140228553?autoplay=1&muted=1&title=0&byline=0&portrait=0",
     cotSteps: [
       { stepName: "The Input", description: "Client (Ser En) needed visual backdrop for DJ set. Created initial storyboard with key visual moments aligned to DJ set energy progression and key points in the mix." },
       { stepName: "The Process", description: "Utilised Blender to create a 3D coin drop sequence, which was layered over the animation. Created repeating visual segments that loop seamlessly while maintaining hypnotic, entrancing quality." },
