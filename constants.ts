@@ -86,5 +86,39 @@ export const PROJECTS: Project[] = [
       { stepName: "The Process", description: "Realized single-track releases wouldn't sustain momentum. Developed integrated multi-channel strategy: Spotify as anchor distribution, YouTube for long-form artist/production storytelling, TikTok/Instagram for clip-based virality." },
       { stepName: "The Craft", description: "Generated songs and full albums using Suno. Created complementary visual assets using Gen AI tools. Results are a Work in Progress." }
     ]
+  },
+  {
+    id: 'p6',
+    title: 'Lost in the Concrete Jungle',
+    client: 'Music Video',
+    thumbnailImg: 'https://img.youtube.com/vi/gtn2fisBo64/maxresdefault.jpg',
+    heroImg: 'https://img.youtube.com/vi/gtn2fisBo64/maxresdefault.jpg',
+    aspectRatio: 'landscape',
+    tools: ['ChatGPT', 'Suno', 'Wan 2.2', 'CapCut'],
+    promptHook: "Suno Bilingual + Wan 2.2 Video Model + Anime Aesthetic",
+    strategyDesc: "Test Wan 2.2's video generation capabilities by creating an anime-style music video with Chinese-English bilingual lyrics that explores urban isolation themes.",
+    videoUrl: "https://www.youtube.com/embed/gtn2fisBo64?autoplay=1&mute=1&rel=0",
+    cotSteps: [
+      { stepName: "The Input", description: "Generated bilingual Chinese-English lyrics, aiming for cultural authenticity and emotional resonance across both language segments." },
+      { stepName: "The Process", description: "Wanted to push Wan 2.2's capabilities beyond basic prompts. Developed specific anime scene references and character archetypes to guide video generation." },
+      { stepName: "The Craft", description: "Generated music track on Suno. Used Wan 2.2 to create anime-style video sequences synced to lyrical transitions. Fine-tuned scene pacing and transitions in CapCut." }
+    ]
+  },
+  {
+    id: 'p7',
+    title: 'G. Time Labyrinth',
+    client: 'Music Video',
+    thumbnailImg: 'https://img.youtube.com/vi/MyNH6NZw-AI/maxresdefault.jpg',
+    heroImg: 'https://img.youtube.com/vi/MyNH6NZw-AI/maxresdefault.jpg',
+    aspectRatio: 'landscape',
+    tools: ['Claude', 'Suno', 'Nanobanana', 'Wan', 'Seedance', 'CapCut'],
+    promptHook: "Claude + Suno + Seedance",
+    strategyDesc: "Create surreal visual journey through interconnected worlds and pushing the limits on Seedance's new video generation model.",
+    videoUrl: "https://www.youtube.com/embed/MyNH6NZw-AI?autoplay=1&mute=1&rel=0",
+    cotSteps: [
+      { stepName: "The Input", description: "Brief—explore time/dimension-bending concept with bilingual Japanese-English lyrics. Used Claude for lyrical ideation and storyboarding of initial visual concept with world-hopping sequences." },
+      { stepName: "The Process", description: "Created images of multiple angles using Google's latest Nanobanana model. Used Seedance's video generation to transport protagonist through different worlds." },
+      { stepName: "The Craft", description: "Putting together Japanese-English track generated on Suno with visuals created using Nanobanana for key frames, then animated with Seedance." }
+    ]
   }
 ];
